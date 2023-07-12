@@ -1,0 +1,60 @@
+
+body {
+	transition: all 1s ease-out;
+	display: flex;
+	height: 100vh;
+}
+
+
+/* the container  */
+#main_container {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	color: rgba(255, 255, 255, 0.7);
+	border-radius: 8px;
+	margin: auto;
+}
+
+#main_header {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+label:hover {
+	color: white;
+}
+
+
+input {
+	
+	border-radius: 7px;
+	border: none;
+}
+
+input:hover {
+	outline: 2px solid #EF6262;
+}
+
+
+/* styling button  */
+#only_button {
+	border-radius: 7px;
+	color: rgba(255, 255, 255, 0.7);
+	background: rgba(0, 0, 0, 0.9);
+}
+
+#only_button:hover {
+	color: white;
+	cursor: pointer;
+}
+
+#only_button:active {
+	transform: translate(3px, 3px);
+}
+
+#name_bar {
+	width: 67%;
+}
+
+#another_container {
+	margin: 10px;
+}
